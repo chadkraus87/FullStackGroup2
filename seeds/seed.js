@@ -14,13 +14,12 @@ const seedDatabase = async () => {
 
     const randomUserId = () => users[Math.floor(Math.random() * users.length)].id;
 
-    const sampleSpots = [
-      { name: 'Spot 1', location: 'Location 1', venueType: 'Type 1', user_id: randomUserId() },
-      { name: 'Spot 2', location: 'Location 2', venueType: 'Type 2', user_id: randomUserId() },
-      { name: 'Spot 3', location: 'Location 3', venueType: 'Type 3', user_id: randomUserId() },
-    ];
+    const spotEntries = spotData.map((spot) => ({
+      ...spot,
+      user_id: randomUserId(),
+    }));
 
-    await Spot.bulkCreate(sampleSpots);
+    await Spot.bulkCreate(spotEntries);
 
     console.log('Database seeding completed.');
     process.exit(0);
