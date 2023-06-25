@@ -2,13 +2,13 @@ const newFormHandler = async (event) => {
   event.preventDefault();
 
   const name = document.querySelector('#spot-name').value.trim();
-  const needed_funding = document.querySelector('#spot-funding').value.trim();
+  const location = document.querySelector('#spot-location').value.trim();
   const description = document.querySelector('#spot-desc').value.trim();
 
-  if (name && needed_funding && description) {
+  if (name && location && description) {
     const response = await fetch(`/api/spots`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description }),
+      body: JSON.stringify({ name, location, description }),
       headers: {
         'Content-Type': 'application/json',
       },
