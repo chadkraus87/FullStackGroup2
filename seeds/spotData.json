@@ -1,0 +1,18 @@
+[
+    {
+      "name": "The Paramount Theater",
+      "description": "A historical, entertainment venue in the heart of Downtown Austin, Texas.",
+      "location": "713 Congress Ave., Austin, TX 78701"
+    },
+    {
+      "name": "The Blanton Museum of Art",
+      "description": "One of the largest university art museums in the United States, offering temporary and permanent art collections.",
+      "location": "200 E Martin Luther King Jr Blvd, Austin, TX 78712"
+    },
+    {
+      "name": "McKinney Falls State Park",
+      "description": "A state park located in Austin, Texas featuring multiple dog-friendly trails with access to water.",
+      "location": "5808 McKinney Falls Pkwy, Austin, TX 78744"
+    }
+  ]
+  
