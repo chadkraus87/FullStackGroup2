@@ -28,23 +28,39 @@ const newFormHandler = async (event) => {
   }
 };
 
+// const delButtonHandler = async (event) => {
+//   if (event.target.hasAttribute('data-id')) {
+//     const id = event.target.getAttribute('data-id');
+
+//     try {
+//       const response = await fetch(`/api/spots/${id}`, {
+//         method: 'DELETE',
+//       });
+
+//       if (response.ok) {
+//         document.location.replace('/profile');
+//       } else {
+//         throw new Error('Failed to delete spot');
+//       }
+//     } catch (error) {
+//       console.error(error);
+//       alert(error.message);
+//     }
+//   }
+// };
+
 const delButtonHandler = async (event) => {
   if (event.target.hasAttribute('data-id')) {
     const id = event.target.getAttribute('data-id');
 
-    try {
-      const response = await fetch(`/api/spots/${id}`, {
-        method: 'DELETE',
-      });
+    const response = await fetch(`/api/spots/${id}`, {
+      method: 'DELETE',
+    });
 
-      if (response.ok) {
-        document.location.replace('/profile');
-      } else {
-        throw new Error('Failed to delete spot');
-      }
-    } catch (error) {
-      console.error(error);
-      alert(error.message);
+    if (response.ok) {
+      document.location.replace('/profile');
+    } else {
+      alert('Failed to delete spot');
     }
   }
 };
@@ -226,5 +242,5 @@ if (spotList) {
 addressAutocomplete(document.getElementById('autocomplete-container'), (selectedItem) => {
   document.querySelector('#spot-location').value = selectedItem.properties.formatted;
 }, {
-  placeholder: 'Start typing a location',
+  placeholder: 'Start typing a location here',
 });
