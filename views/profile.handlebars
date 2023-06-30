@@ -3,6 +3,13 @@
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
+ <button type="button" class="btn btn-outline-light me-2">
+             {{#if logged_in}}
+             <a href="/profile">Profile</a> |
+            <button class="no-button" id="logout">Logout</button>
+            {{else}}
+            <a href="/login">Login</a>
+            {{/if}}</button>
 
 <div class="row mt-4">
   <div class="col-md-6">

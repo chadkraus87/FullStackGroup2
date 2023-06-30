@@ -1,7 +1,27 @@
-header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+body, html {
+  margin: 0%;
+  font-family: 'Prompt', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/buggie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: antiquewhite;
 }
 
+
+header, .project:not(:last-child) {
+  border-bottom: 1px solid #0c0c0c;
+  /* background-color: #DEEBF3; */ 
+}
+
+main {
+  background-color: aliceblue;
+  opacity: 0.75;
+  border-radius: 2%;
+  margin: 5% 0;
+}
 .no-button {
   background: none;
   border: none;
@@ -17,8 +37,4 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
-}
+

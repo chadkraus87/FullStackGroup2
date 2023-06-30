@@ -7,25 +7,33 @@
   <title>My Favorite Spots</title>
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
 <body>
   <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
+    <header class="p-3 text-bg-dark">
       <h1>
-        <span role="img" aria-label="location">📍</span>
-        <a href="/">Spots</a>
+        <img src="/images/camera_icon.png" alt="camera"><a>Spots</a>
         <p>Login to save your favorites!</p>
       </h1>
-      <nav>
-        <!-- Conditionally render login or logout links -->
-        {{#if logged_in}}
-        <a href="/profile">Profile</a> |
-        <button class="no-button" id="logout">Logout</button>
-        {{else}}
-        <a href="/login">Login</a>
-        {{/if}}
-      </nav>
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-right justify-content-lg-start">
+          
+        <div class="text-end">
+          {{!-- <button type="button" class="btn btn-outline-light me-2">
+             {{#if logged_in}}
+             <a href="/profile">Profile</a> |
+            <button class="no-button" id="logout">Logout</button>
+            {{else}}
+            <a href="/login">Login</a>
+            {{/if}}</button>
+          <button type="button" class="btn btn-warning">Sign-up</button> --}}
+        </div>
+      </div>
     </header>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->

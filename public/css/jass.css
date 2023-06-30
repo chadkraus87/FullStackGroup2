@@ -5,11 +5,15 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+
 html {
+  text-align: center;
   line-height: 1.15;
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  background-image: #1bbc9b;
+
 }
 
 /* Sections
@@ -372,7 +376,8 @@ h6 {
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 21 px;
+  text-align: center;
 }
 
 h2 {
@@ -396,6 +401,7 @@ h6 {
 }
 
 p {
+  text-align: center;
   font-size: 1.1rem;
   margin: 0 0 1rem;
   line-height: 1.5;
@@ -404,6 +410,7 @@ p {
 ul,
 ol,
 dl {
+  text-align: center;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -420,8 +427,10 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  text-align: center;
+  color: #202222;
   text-decoration: none;
+  
 }
 
 a:hover {
@@ -868,7 +877,7 @@ a:hover {
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: right !important;
 }
 
 .text-justify {
@@ -1018,12 +1027,12 @@ a:hover {
 }
 
 .btn.btn-danger {
-  background-color: #e64c66;
+  background-color: #FADA77;
   color: #ffffff;
 }
 
 .btn.btn-danger:hover {
-  background-color: #ee8294;
+  background-color: #D17A21;
 }
 
 .btn.btn-info {
@@ -1213,7 +1222,7 @@ form [type='radio'] {
 }
 
 .justify-center {
-  justify-content: center;
+  justify-content: right;
 }
 
 .align-start {
@@ -1229,7 +1238,7 @@ form [type='radio'] {
 }
 
 .align-center {
-  align-items: center;
+  align-items: right;
 }
 
 .align-content-start {
@@ -1245,7 +1254,7 @@ form [type='radio'] {
 }
 
 .align-content-center {
-  align-content: center;
+  align-content: right;
 }
 
 .row {
