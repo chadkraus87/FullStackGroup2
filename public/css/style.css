@@ -1,20 +1,39 @@
+body, html {
+  margin: 0%;
+  font-family: 'Prompt', sans-serif;
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/buggie.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #DADADA;
+
+}
+
 header,
 .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
+  background-color: #FCD57F;
+  font-size: 45px;
+  color: #E2922D;
 }
+
+.navbar-brand {
+  background-color: #FCD57F;
+}
+
 
 .no-button {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #1b89bc;
-  text-decoration: none;
-  font-size: 100%;
+  color: #FCD57F;
 }
 
 .no-button:hover {
-  color: #065b83;
+  color: #E2922D;
   text-decoration: underline;
 }
 

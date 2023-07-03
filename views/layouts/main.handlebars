@@ -5,36 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Favorite Spots</title>
+  <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico">-->
+  <!-- <link rel="icon" type="image/x-icon" href="../public/images/icons8-point.png">-->
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
-  <div class="flex-column justify-space-around">
-    <header class="display-flex justify-space-between align-center p-2">
-      <h1>
-        <span role="img" aria-label="location">📍</span>
-        <a href="/">Spots</a>
-        <p>Login to save your favorites!</p>
-      </h1>
-      <nav>
+  <header> 
+<div class="flex-column justify-space-around">      
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Spots</a> <p>Login To Save Your Favorites!</p>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        </form>
+      </div>
+    </div>
+  </nav>
         <!-- Conditionally render login or logout links -->
         {{#if logged_in}}
-        <a href="/profile">Profile</a> |
+        <a href="/profile"></a> 
         <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login">Login</a>
+        <a href="/login" button class="btn btn-outline-success" style="float: right" type="submit">Login</button></a>
         {{/if}}
       </nav>
-    </header>
+  </header>
     <main class="container container-fluid mt-5">
       <!-- Render the sub layout -->
       {{{ body }}}
     </main>
-    <footer>
-      
-    </footer>
-  </div>
+    
+  <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top" > 
+      <p>&copy; 2023 Kraus & Co., Inc. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
 
   <!-- Render script for logged in users only -->
   {{#if logged_in}}
