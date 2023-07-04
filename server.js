@@ -4,7 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const helpers = require('./utils/helpers');
-
+// const favicon = require('serve-favicon')
 const cloudinary = require('cloudinary').v2;
 
 cloudinary.config({ 
@@ -47,7 +47,7 @@ app.set('view engine', 'handlebars');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
-
+// app.use(favicon(__dirname + 'public/images/favicon.ico'));
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
