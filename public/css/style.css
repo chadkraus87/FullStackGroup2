@@ -19,6 +19,10 @@ header,
   color: #E2922D;
 }
 
+.login{
+  float:right;
+  margin-left: 1100px;
+}
 .navbar-brand {
   background-color: #FCD57F;
 }
