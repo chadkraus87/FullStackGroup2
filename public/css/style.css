@@ -1,6 +1,6 @@
 body, html {
   margin: 0%;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Rubik', sans-serif;
   height: 100%;
   width: 100%;
   background-image: url("../images/buggie.jpg");
@@ -8,7 +8,6 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #DADADA;
-
 }
 
 header,
@@ -19,7 +18,11 @@ header,
   color: #E2922D;
 }
 
-.login{
+.container {
+  border-radius: 25px;
+}
+
+.login {
   float:right;
   margin-left: 1100px;
 }
@@ -33,11 +36,14 @@ header,
   border: none;
   padding: 0;
   cursor: pointer;
-  color: #FCD57F;
+  /* color: #FCD57F; */
+  color: black;
+  display: inline-flex;
+  font-size: medium;
 }
 
 .no-button:hover {
-  color: #E2922D;
+  color: #A86455;
   text-decoration: underline;
 }
 

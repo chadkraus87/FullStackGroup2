@@ -4,6 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/384ea4421e.js" crossorigin="anonymous"></script>
   <title>My Favorite Spots</title>
   <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico">-->
   <link rel="icon" type="image/x-icon" href="https://icons8.com/icon/UTjxwpLTDSre/ico">
@@ -15,7 +19,7 @@
   <header> 
 <div class="flex-column justify-space-around">      
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Spots</a> <p>Login To Save Your Favorites!</p>
+      <a class="navbar-brand" href="#">Spots <i class="fa-solid fa-map-location-dot"></i></a> <p>Login To Save Your Favorites!</p>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         </form>
       </div>
@@ -26,7 +30,7 @@
         <a href="/profile"></a> 
         <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login" button class="btn btn-outline-success login" style="float: right" type="submit">Login</button></a>
+        <a href="/login" button class="btn btn-outline-success login" type="submit">Login</button></a>
         {{/if}}
       </nav>
   </header>
