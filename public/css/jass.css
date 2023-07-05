@@ -145,6 +145,7 @@ sup {
  */
 img {
   border-style: none;
+  border-radius: 30px;
 }
 
 /* Forms
@@ -426,12 +427,12 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
-  color: #065b83;
+  color: #A86455;
   text-decoration: underline;
 }
 
@@ -894,7 +895,7 @@ a:hover {
 }
 
 .text-danger {
-  color: #e64c66 !important;
+  color: #A86455 !important;
 }
 
 .text-default {
@@ -918,7 +919,7 @@ a:hover {
 }
 
 .text-link {
-  color: #1b89bc !important;
+  color: #E2922D !important;
 }
 
 /* BACKGROUND UTILS */
@@ -931,7 +932,7 @@ a:hover {
 }
 
 .bg-danger {
-  background-color: #e64c66 !important;
+  background-color: #E2922D !important;
 }
 
 .bg-light {
@@ -951,7 +952,7 @@ a:hover {
 }
 
 .bg-link {
-  background-color: #1b89bc !important;
+  background-color: #E2922D !important;
 }
 
 /* DISPLAY */
@@ -1024,7 +1025,7 @@ a:hover {
 }
 
 .btn.btn-danger {
-  background-color: #e64c66;
+  background-color: #A86455;
   color: #ffffff;
 }
 
