@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" href="/images/location-16.ico">
 <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/384ea4421e.js" crossorigin="anonymous"></script>
-  <title>My Favorite Spots</title>
-  <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico">-->
+  <title>Spots</title>
   <link rel="icon" type="image/x-icon" href="https://icons8.com/icon/UTjxwpLTDSre/ico">
   <link rel="stylesheet" href="/css/jass.css">
   <link rel="stylesheet" href="/css/style.css">
@@ -19,7 +19,7 @@
   <header> 
 <div class="flex-column justify-space-around">      
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Spots <i class="fa-solid fa-map-location-dot"></i></a> <p>Login To Save Your Favorites!</p>
+      <a class="navbar-brand">Spots <i class="fa-solid fa-map-location-dot"></i></a> <p>Login To Save Your Favorites!</p>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         </form>
       </div>
@@ -30,7 +30,7 @@
         <a href="/profile"></a> 
         <button class="no-button" id="logout">Logout</button>
         {{else}}
-        <a href="/login" button class="btn btn-outline-success login" type="submit">Login</button></a>
+        <a href="/login" button class="no-button" type="submit">Login</button></a>
         {{/if}}
       </nav>
   </header>
@@ -39,8 +39,13 @@
       {{{ body }}}
     </main>
     
+  <footer> 
   <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top" > 
-      <p>&copy; 2023 Kraus & Co., Inc. All rights reserved.</p>
+      <p class="text-center">
+  <a href="/">Home</a> 
+  <br>&copy; 2023 Kraus & Co., Inc. All rights reserved.
+</p>
+
     </div>
   </footer>
 </div>

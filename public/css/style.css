@@ -6,8 +6,8 @@ body, html {
   background-image: url("../images/buggie.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #DADADA;
+  background-size: 100% auto;
+  background-color: #FCD47F;
 }
 
 header,
@@ -16,6 +16,7 @@ header,
   background-color: #FCD57F;
   font-size: 45px;
   color: #E2922D;
+  text-align: center;
 }
 
 .container {
@@ -30,13 +31,11 @@ header,
   background-color: #FCD57F;
 }
 
-
 .no-button {
   background: none;
   border: none;
   padding: 0;
   cursor: pointer;
-  /* color: #FCD57F; */
   color: black;
   display: inline-flex;
   font-size: medium;
@@ -45,6 +44,10 @@ header,
 .no-button:hover {
   color: #A86455;
   text-decoration: underline;
+}
+
+.image-size {
+  max-height: 250px;
 }
 
 .autocomplete-container {
