@@ -1,6 +1,8 @@
-# FullStackGroup2
+# Spots - A Favorite Spots Saver App
 
-![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
+[GitHub Repository](https://github.com/chadkraus87/FullStackGroup2)
+
+[Heroku Application](https://spots-1fbfc8155a67.herokuapp.com/)
 
 ## Description
 
@@ -26,8 +28,6 @@ While completing this project we learned about building back end servers with a 
 ## Installation
 
 To view the "Spots" application, please copy the URL provided below and paste the URL in to the address bar located at the top of a Google Chrome window, or in to the address bar located in the window of the browser of your choice. You may also simply hover over the URL located below until the pointer becomes a hand symbol. Once a hand symbol is visible while hovering over the URL, please left click on the URL once and the "My Favorite Spots" application should open and be visible in a browser window.
-
-( https://spots-1fbfc8155a67.herokuapp.com/ "Spots")
   
 ## Usage
   
@@ -51,12 +51,12 @@ If you would like to add a description to your favorite spot, please enter a des
 
 [Background Cover Image via Unsplash by Dino Reichmuth](https://unsplash.com/photos/A5rCN8626Ck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-[FavIcon Graphic] (https://icons8.com/icon/3723/location)
+[FavIcon Graphic](https://icons8.com/icon/3723/location)
   
   
 ## License
   
-License: The MIT License
+MIT License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)https://opensource.org/licenses/MIT
  
   
