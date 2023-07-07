@@ -1,5 +1,7 @@
 # FullStackGroup2
 
+![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
+
 ## Description
 
 The "Spots" application was created to provide users with a location that they are able to log in to a personal account and save the name and address of their favorite spots to visit. Users are also able to save a brief description of the spot, while uploading a photo if they choose to. The application allows users to view the spot on Google Maps.
@@ -47,7 +49,9 @@ If you would like to add a description to your favorite spot, please enter a des
 
 ## Credits
 
-Photo credit for the background image by "https://unsplash.com/@dinoreichmuth?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" Dino Reichmuth on "https://unsplash.com/photos/A5rCN8626Ck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" Credit for the location favicon from https://icons8.com/icon/3723/location
+[Background Cover Image via Unsplash by Dino Reichmuth](https://unsplash.com/photos/A5rCN8626Ck?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+[FavIcon Graphic] (https://icons8.com/icon/3723/location)
   
   
 ## License
@@ -58,7 +62,7 @@ License: The MIT License
   
 ## Contributing
 
-If you would like to contribute, please reach out to us via GitHub at https://github.com/chadkraus87. Thank you
+If you would like to contribute, please reach out to us via GitHub at https://github.com/chadkraus87.
   
 ## Tests
 

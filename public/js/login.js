@@ -1,14 +1,6 @@
 const loginFormHandler = async (event) => {
   event.preventDefault();
 
-//const loginForm = document.querySelector(".login-form");
-//const signUpForm = document.querySelector(".signup-form");
-
-//if (logged_in === true) {
-  //loginForm.setAttribute("data-state", "hidden")
-  //signUpForm.setAttribute("data-state", "hidden")
-//} 
-
   // Collect values from the login form
   const email = document.querySelector('#email-login').value.trim();
   const password = document.querySelector('#password-login').value.trim();
