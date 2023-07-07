@@ -27,7 +27,9 @@ While completing this project we learned about building back end servers with a 
   
 ## Installation
 
-To view the "Spots" application, please copy the URL provided below and paste the URL in to the address bar located at the top of a Google Chrome window, or in to the address bar located in the window of the browser of your choice. You may also simply hover over the URL located below until the pointer becomes a hand symbol. Once a hand symbol is visible while hovering over the URL, please left click on the URL once and the "My Favorite Spots" application should open and be visible in a browser window.
+To view the "Spots" application, please click the URL provided below.
+
+[Heroku Application](https://spots-1fbfc8155a67.herokuapp.com/)
   
 ## Usage
   
