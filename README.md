@@ -58,8 +58,9 @@ If you would like to add a description to your favorite spot, please enter a des
   
 ## License
   
-MIT License
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)https://opensource.org/licenses/MIT
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+![MIT License](https://img.shields.io/badge/License-MIT-brightgreen)
  
   
 ## Contributing
